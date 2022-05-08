@@ -1,6 +1,12 @@
 .our {
     padding: 2px;
-    background-color: aquamarine;
+    background-color: rgba(155, 127, 255, 0.473);
     text-decoration: underline;
     text-decoration-color: crimson;
+}
+.our-2 {
+    padding: 3px;
+    background-color: deepskyblue;
+    text-decoration: line-through;
+    text-decoration-color:deeppink;
 }
