@@ -110,6 +110,10 @@ figure {
   padding: 0.5em;
 }
 
+.center-picture, .right-picture {
+  border-radius: 5%;
+}
+
 .center-picture + article {
   width: 30%;
   text-align: center;
