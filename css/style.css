@@ -1,0 +1,195 @@
+:root {
+    --basic-color: #2f3956d2;
+    --basic-extra-dark:#3E3C3F;
+    --basic-dark:#151722;
+    --basic-neutral: #dde6f5;
+    
+    --special:#455580da;
+}
+
+body {
+    min-width: 960px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--basic-dark);
+    height: 100%;
+    box-sizing: border-box;
+    background-color: var(--basic-color); 
+    background-image: url('../files/background.jpg');
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+a {
+    text-decoration: none;
+    color: var(--basic-dark);
+}
+
+a:hover {
+    color: var(--basic-extra-dark);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 1200px) {
+    .sidebar-left {
+      display: none;
+    }
+    .sidebar-right {
+      display: none;
+    }
+}
+
+
+.main-container {
+    background-color: var(--basic-neutral);
+    background-repeat: repeat-y;
+    background-repeat: round;
+    border: var(--basic-dark);
+    padding: 15px;
+    margin: 0px 350px;
+    justify-content: center;
+}
+
+.site-header {
+    margin: 0px 350px;
+    margin-left: 350px;
+    margin-right: 350px;
+    background-color: var(--special);
+    font-size: 22px;
+    padding-bottom:20px;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.navigation li {
+    list-style-type:none;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    padding: 0 20px;
+    color: var(--basic-dark);
+}
+
+.page-title {
+    width: 500px;
+    margin: 10px;
+    padding-left: 10px;
+    text-align: center;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 64px;
+    display: inline-block;
+}
+
+.section-title {
+    border-bottom: 1px solid var(--basic-dark)
+}
+
+.sidebar-left {
+    height: 100%; 
+    width: 220px; 
+    position: fixed; 
+    z-index: 1; 
+    top: 0; 
+    left: 0;
+    background-color: var(--special);
+    border:1px solid var(--special);
+    overflow-x: hidden; 
+    padding-top: 20px;
+    margin-left: 129px;
+    margin-top: 0px;
+}
+
+.sidebar-right {
+    height: 100%; 
+    width: 220px; 
+    position: fixed; 
+    z-index: 1; 
+    top: 0; 
+    right: 0;
+    background-color: var(--special);
+    border:1px solid var(--special);
+    overflow-x: hidden; 
+    padding-top: 20px;
+    margin-right: 129px;
+    margin-top: 0px;
+}
+  
+.sidebar-list {
+    padding: 0px;
+    text-align: center;
+}
+
+.sidebar-list li {
+    padding: 6px 5px 6px;
+    text-decoration: none;
+    font-size: 22px;
+    line-height: 36px;
+    color: var(--basic-dark);
+    display: block;
+}
+
+.center-picture {
+    text-align: center;
+    display: block;
+    text-indent: 0;
+    margin: auto;
+    padding: 8px;
+    border-radius: 15px;
+}
+
+.img-text {
+    text-align: center;
+    font-style: italic;
+    font-size: smaller;
+}
+
+.hp-logo {
+    text-align: right;
+    width: 30%;
+    margin-top: 10px;
+    float: right;
+    text-indent: 0;
+}
+
+.right-picture {
+    float: right;
+    display: block;
+    margin: auto;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.avatar {
+    text-align: left;
+    width: 30%;
+    float: left;
+    margin: 0px;
+    padding: 0px;
+}
+
+.left-picture {
+    float: left;
+    display: block;
+    margin: 0;
+    padding: 0px;
+    border-radius: 15px;
+}
+
+.site-footer {
+    margin: 0px 350px;
+    margin-left: 350px;
+    margin-right: 350px;
+    background-color: var(--special);
+    text-align: center;
+    font-size: 14px;
+    padding:20px; 
+}
